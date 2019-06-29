@@ -13,4 +13,4 @@ eureka:
     prefer-ip-address: true
 girl:
   name: zdy
-  age: 20
+  age: 16
