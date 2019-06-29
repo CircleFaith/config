@@ -1,1 +1,16 @@
-
+server:
+  port: 9999
+spring:
+  application:
+    name: cart-service
+eureka:
+  client:
+    service-url:
+      defaultZone : http://47.101.192.143:8761/eureka/,http://47.101.192.143:8762/eureka/,http://47.101.192.143:8763/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+girl:
+  name: zdy
+  age: 16
