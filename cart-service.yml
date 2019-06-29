@@ -11,3 +11,6 @@ eureka:
     fetch-registry: true
   instance:
     prefer-ip-address: true
+girl:
+  name: zdy
+  age: 18
