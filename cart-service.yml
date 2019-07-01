@@ -3,6 +3,8 @@ server:
 spring:
   application:
     name: cart-service
+  zipkin:
+    base-url: http://47.101.192.143:9411/
 eureka:
   client:
     service-url:
