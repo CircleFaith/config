@@ -5,6 +5,9 @@ spring:
     name: cart-service
   zipkin:
     base-url: http://47.101.192.143:9411/
+  sleuth:
+    sampler:
+      probability: 1
 eureka:
   client:
     service-url:
