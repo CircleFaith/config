@@ -2,7 +2,7 @@ server:
   port: 8081
 spring:
   application:
-    name: cart-service
+    name: cart-service-1
 eureka:
   client:
     service-url:
